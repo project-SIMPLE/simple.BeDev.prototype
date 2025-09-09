@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0b15495a2d04d1f4883ab18c5733119f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.73735714
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b15495a2d04d1f4883ab18c5733119f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.69138575
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b15495a2d04d1f4883ab18c5733119f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -9.8473
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b15495a2d04d1f4883ab18c5733119f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -52,10 +52,18 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 2faad6fbe3843394496e7b8a61190383, type: 2}
+    - target: {fileID: -4387726087442435822, guid: 0b15495a2d04d1f4883ab18c5733119f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2faad6fbe3843394496e7b8a61190383, type: 2}
     - target: {fileID: 919132149155446097, guid: 0b15495a2d04d1f4883ab18c5733119f, type: 3}
       propertyPath: m_Name
       value: SM_Mosquito
       objectReference: {fileID: 0}
+    - target: {fileID: 3963050104886438690, guid: 0b15495a2d04d1f4883ab18c5733119f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2faad6fbe3843394496e7b8a61190383, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
