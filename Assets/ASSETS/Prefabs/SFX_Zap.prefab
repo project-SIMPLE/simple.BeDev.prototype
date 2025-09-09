@@ -145,3 +145,7 @@ MonoBehaviour:
   audioSource: {fileID: 2138850985967025061}
   minPitch: 0.6
   maxPitch: 1.2
+  clips:
+  - {fileID: 8300000, guid: 5dd60f6ae49c18149a3ec9be08fa96a7, type: 3}
+  - {fileID: 8300000, guid: cee5a0fc2038dab42aa467a05be47240, type: 3}
+  - {fileID: 8300000, guid: 7f10366720058a44a8ef7d86d2f5d500, type: 3}

@@ -10,18 +10,29 @@ public class RandomPitchAudio : MonoBehaviour
     [Range(0.5f, 2f)] public float minPitch = 0.9f;
     [Range(0.5f, 2f)] public float maxPitch = 1.1f;
 
+    [Header("Sound Clips")]
+    public AudioClip[] clips;
+
     private void Awake()
     {
         if (audioSource == null)
             audioSource = GetComponent<AudioSource>();
 
-        // Play sound immediately on Awake
-        PlaySound();
+        PlayRandomSound();
     }
 
-    public void PlaySound()
+    public void PlayRandomSound()
     {
+        if (clips.Length == 0) return; // no clips assigned
+
+        // Pick a random clip
+        AudioClip clip = clips[Random.Range(0, clips.Length)];
+
+        // Apply random pitch
         audioSource.pitch = Random.Range(minPitch, maxPitch);
+
+        // Play the chosen clip
+        audioSource.clip = clip;
         audioSource.Play();
     }
 }
